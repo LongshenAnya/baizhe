@@ -1,14 +1,10 @@
-   //  https://taskapi.chovrio.club/
-
-   fetch("https://taskapi.chovrio.club/", {
+fetch("https://taskapi.chovrio.club/", {
     method: "get",
     headers: {
-
+      
     },
     body: {
-
+      
     }
-   })
-   const data = await res.json()
-
-   
+  })
+  const data = await res.json()
